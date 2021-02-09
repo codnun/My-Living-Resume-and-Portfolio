@@ -1,0 +1,200 @@
+html {
+	border-top-style: none;
+	border-bottom-style: none;
+	border-left-style: solid;
+		border-left-width: 70px;
+		border-left-color: #b6b6b6;
+	border-right-style: solid;
+		border-right-width: 70px;
+		border-right-color: #b6b6b6;
+}
+
+.container {
+	max-width: 840px;
+	margin: 0 auto;
+}
+
+.intro {
+	text-align: center;
+}
+
+.profile-picture {
+	border-radius: 50%;
+	width: 150px
+	height: 150px;
+	box-shadow: 0 4px 8px 0 rgb(34, 60, 80, 0.16);
+	transition: all ease-in-out	.2s;
+}
+
+.profile-picture:hover {
+	box-shadow: 0 8px 20px 0 grey;
+	border-radius: 50%;
+}
+
+.contact-me-header {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.contact-me-paragraph {
+	margin: 5px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;	
+}
+
+.experience-grid {
+	text-align: center;
+}
+
+.experience-list-grid {
+	display: grid;
+	grid-template-columns: 33.33% 33.33% 33.33%;
+}
+
+li {
+	padding-bottom: 5px
+}
+
+.about-me-header {
+	text-align: center;
+	margin: 30px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.experience-header {
+	text-align: center;
+	margin: 5px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+@media (max-width: 480px) {
+	.experience-list-grid {
+		grid-template-columns: 100%;
+	}
+}
+
+.experience-grid {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
+
+@media (max-width: 650px) {
+	.experience-grid {
+		grid-template-columns: 100%; 
+	}
+}
+
+ul {
+    text-align: left;
+}
+
+.resume-heading {
+	text-align: center;
+}
+.resume-grid {
+	display: grid;
+	grid-template-columns: 100%;
+}
+.resume-image:hover {
+	filter: brightness(.75);
+	box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+	 -ms-transform: scale(1.05); /* IE 9 */
+	 -webkit-transform: scale(1.05); /* Safari 3-8 */
+	 transform: scale(1.05); 
+}
+.resume-image {
+	justify-content: center;
+	padding: 2%;
+	border-radius: 2px;
+	box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
+	transition: all ease-in-out .2s;
+}
+.resume-image-wrapper {
+    /* To correctly align image, regardless of content height: */
+	align-items: center;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+}
+
+
+.certificates-heading {
+	text-align: center;
+}
+
+.education-heading {
+	text-align: center;
+}
+
+.projects-grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+
+.project-image-wrapper {
+    /* To correctly align image, regardless of content height: */
+	align-items: center;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+}
+
+.project-image {
+	justify-content: center;
+	padding: 4%;
+	border-radius: 3px;
+	box-shadow: 0 4px 6px 0 rgba(34, 60, 80, 0.16);
+	transition: all ease-in-out .2s;
+}
+
+.school_name {
+	font-size: 80%;
+	font-style: italic;
+}
+
+.project-image:hover {
+	filter: brightness(.75);
+	box-shadow: 0 8px 12px 0 rgba(34, 60, 80, 0.16);
+	 -ms-transform: scale(1.05); /* IE 9 */
+	 -webkit-transform: scale(1.05); /* Safari 3-8 */
+	 transform: scale(1.05); 
+}
+
+.image-title {
+	vertical-align: top;
+}
+
+@media (max-width: 650px) {
+	.projects-grid {
+		grid-template-columns: 100%; 
+	}
+}
+
+.links-and-constacts {
+	display: grid;
+	grid-template-columns: 30% 70%;
+}
+
+.links {
+	justify-self: center;
+}
+
+.links-list {
+	list-style: none;
+	padding: 0;
+}
+
+@media (max-width: 650px) {
+.linkes-and-contacts {
+	grid-template-columns: 100%;
+	}
+}
+
+
+	/* justify-self: center;
+	padding: 4%;
+	position: relative;
+}*/
